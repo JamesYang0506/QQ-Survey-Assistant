@@ -11,9 +11,7 @@ a = Analysis(
     ['main.py'],
     pathex=[basedir],
     binaries=[],
-    datas=[
-        (os.path.join(basedir, 'config', 'default_profile.json'), 'config'),
-    ],
+    datas=[],
     hiddenimports=[
         'PyQt6', 'PyQt6.QtCore', 'PyQt6.QtWidgets', 'PyQt6.QtGui',
         'playwright', 'playwright.async_api',
