@@ -1,0 +1,5 @@
+PyQt6>=6.5.0
+uiautomation>=2.0
+playwright>=1.40.0
+thefuzz>=0.20.0
+python-Levenshtein>=0.23.0

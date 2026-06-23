@@ -1,0 +1,25 @@
+# 构建产物
+dist/
+build/
+*.exe
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# IDE / 工具
+.claude/
+.vscode/
+.idea/
+
+# 运行时数据（绝不上传）
+*.db
+profiles.json
+settings.json
+groups.json
+
+# 系统文件
+Thumbs.db
+Desktop.ini
